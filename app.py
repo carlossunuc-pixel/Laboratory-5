@@ -9,6 +9,7 @@ from dash import Dash, dcc, html, Input, Output, dash_table
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
+import dash
 
 #Paso 1: Cargar datos
 df = pd.read_excel("edadmedia.xlsx")
